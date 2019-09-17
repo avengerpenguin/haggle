@@ -17,7 +17,7 @@ decorator you are already using.
 Currently only supports aiohttp and jinja2. To install
 
 ```
-$ pip install aiohttp_jinja2_haggle
+$ pip install aiohttp-jinja2-haggle
 ```
 
 Then to use:
