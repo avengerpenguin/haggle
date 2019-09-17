@@ -1,0 +1,16 @@
+language: python
+python:
+  - 3.5
+  - 3.6
+
+install:
+  - pip install aiohttp
+  - pip install pytest pytest-aiohttp pytest-cov
+
+script:
+  py.test --cov=aiohttp_jinja2_haggle aitohttp/test.py
+
+env:
+  matrix:
+    - PYTHONASYNCIODEBUG=1
+    - PYTHONASYNCIODEBUG=
