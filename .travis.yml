@@ -4,7 +4,7 @@ python:
   - 3.6
 
 install:
-  - pip install aiohttp
+  - pip install ./aiohttp
   - pip install pytest pytest-aiohttp pytest-cov
 
 script:
