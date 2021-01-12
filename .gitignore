@@ -1,5 +1,6 @@
+build
+dist
+__pycache__
 venv
 *.egg-info
-__pycache__
 .idea
-.pytest_cache
